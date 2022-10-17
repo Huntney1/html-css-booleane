@@ -1,53 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family:Arial, Helvetica, serif;
+body {
     width: 100%;
     height: 100vh;
     display: inline-block;
 }
 
-header{
+header {
     background-size: 376px;
 
 }
 
 .continer {
     background-color: rgb(36, 148, 246);
-    background-image: url(./img/pattern.png);  
+    background-image: url(./img/pattern.png);
     padding: 48px;
     width: 100%;
 }
 
-.text{
+.text {
     color: aliceblue;
     position: absolute;
     top: 28px;
     left: 31px;
 }
-.bool{
+
+.bool {
     position: relative;
     right: 19px;
-    bottom:15px;
+    bottom: 15px;
 }
 
-main{
+main {
     margin-left: 17px;
 }
 
-.grey{
-color:grey;
-font-weight: bold;
+#distanza {
+    padding-top: 15px;
 }
 
-.text_blu{
-    color:rgb(36, 148, 246);
+.grey {
+    color: grey;
+    font-weight: bold;
 }
 
-.grey_slim{
+.text_blu {
+    color: rgb(36, 148, 246);
+}
+
+.grey_slim {
     font-size: 12px;
+}
+
+.img_space {
+    padding-top: 45px;
+    text-align: left;
+
 }
