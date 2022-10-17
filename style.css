@@ -88,3 +88,7 @@ th
 tr:nth-child(odd) {
     background-color: #76cee5;
 }
+
+#pad_text{
+    padding-top: 23px;
+}
